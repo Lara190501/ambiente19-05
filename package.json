@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js"
@@ -18,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Lara190501/ambiente19-05/issues"
   },
-  "homepage": "https://github.com/Lara190501/ambiente19-05#readme"
+  "homepage": "https://github.com/Lara190501/ambiente19-05#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
